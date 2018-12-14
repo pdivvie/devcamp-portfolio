@@ -59,3 +59,5 @@ gem 'devise', '~> 4.5'
 
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+
+gem 'pdivvie_view_tool', git: 'https://github.com/pdivvie/pdivvie_view_tool'
