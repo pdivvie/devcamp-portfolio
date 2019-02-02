@@ -4,7 +4,7 @@ class PortfoliosController < ApplicationController
   access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :edit, :update]}, site_admin: :all
   
   def index
-    @porfolio_items = Portfolio.all
+    @porfolio_items = Portfolio.by_order
   end
 
   def angular
