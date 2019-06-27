@@ -1,0 +1,7 @@
+<% if flash[:alert] %>
+  <%= js add_gritter(flash[:alert], title: "Pierre Jacques de Villiers", sticky: false) %>
+<% elsif flash[:error]%>
+  <%= js add_gritter(flash[:error], title: "Pierre Jacques de Villiers", sticky: false) %>
+<% else %>  
+  <%= js add_gritter(flash[:notice], title: "Pierre Jacques de Villiers", sticky: false) %>
+<% end %>
