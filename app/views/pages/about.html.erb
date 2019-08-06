@@ -16,6 +16,95 @@
           <%= link_to "My Github Profile", 'https://github.com/pdivvie', class: "btn btn-lg btn-info" %>
         </p>
 
+        <p>
+          <button
+            class="btn btn-info"
+            type="button"
+            data-toggle="collapse"
+            data-target="#academicHistory"
+            aria-expanded="false"
+            aria-controller="academicHistory"
+          >
+            Academic History
+          </button>
+
+          <button
+            class="btn btn-info"
+            type="button"
+            data-toggle="collapse"
+            data-target="#selfTaught"
+            aria-expanded="false"
+            aria-controller="selfTaught"
+          >
+            Self Taught
+          </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="academicHistory">
+            <div class="card card-block">
+              De Hoop Primary
+              <br>
+              Somerset-West
+              <br>
+              1999  – 2005
+
+            </div>
+            <div class="card card-block">
+              Parel Vallei High
+              <br>
+              Somerset-West
+              <br>
+              2006  – June 2008
+            </div>
+            <div class="card card-block">
+              Somerset Private School
+              <br>
+              July 2008 – December 2010
+              <br>
+              <%= link_to 'National Senior Certificate', "https://personal-documents-bucket.s3.eu-west-2.amazonaws.com/PJ+de+Villiers+-+National+Senior+Certificate.PDF" %>
+              Additional Subjects:
+              <br>
+              Mathematics P3 (78%)
+              <br>
+              Psychology AS-Level (Passed)
+              <br>
+              Stellenbosch Entrance Examination (70%)
+
+            </div>
+            <div class="card card-block">
+              B.Sc (Mathematics, Physics)
+              <br>
+              University of Stellenbosch
+              <br>
+              2011 – 2012
+              <br>
+              <%= link_to 'Academic record', "https://personal-documents-bucket.s3.eu-west-2.amazonaws.com/PJ+de+Villiers+-+US+transcript.PDF" %>
+            </div>
+            <div class="card card-block">
+              B.Sc (Genetics / Zoology)
+              <br>
+              UNISA
+              <br>
+              July 2013 – 2016
+              <br>
+              <%= link_to 'Academic record', "https://personal-documents-bucket.s3.eu-west-2.amazonaws.com/PJ+de+Villiers+-+UNISA+academic+record.PDF" %>
+              <%= link_to 'Bachelors degree', "https://personal-documents-bucket.s3.eu-west-2.amazonaws.com/Degree+Certificate+-+P+J+de+Villiers.pdf" %>
+            </div>
+
+          </div>
+        </p>
+
+        <p>
+          <div class="collapse" id="selfTaught">
+            <div class="card card-block">
+              Dissecting Ruby on Rails 5
+              <br>
+              Udemy
+            </div>
+          </div>
+        </p>
+
       </div>
 
     </div>
