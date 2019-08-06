@@ -149,19 +149,45 @@ body {
   background-size: cover;
  }
 
- .app-footer {
+.app-footer {
   color: white;
- }
+}
 
- .tech-news {
+.tech-news {
   color: black;
   margin: 20px;
- }
+}
 
- .tech-news a {
+.tech-news a {
   color: green;
- }
+}
 
- .tech-news > .card {
+.tech-news > .card {
   padding: 30px;
- }
+}
+
+.about-card-container {
+  color:black;
+  text-align: left;
+}
+
+.about-card-container > .card {
+  padding: 40px;
+}
+
+.contact-card-container {
+  color:black;
+  text-align: left;
+}
+
+.contact-card-container a {
+  color: black;
+}
+
+.contact-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
