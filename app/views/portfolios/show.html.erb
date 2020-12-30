@@ -10,6 +10,8 @@
 
       <p><%= markdown @portfolio_item.body %></p>
 
+      <p><%= link_to 'View Website', @portfolio_item.url, class: 'btn btn-dark'%></p>
+
        <h3>Technologies Used:</h3>
 
        <% @portfolio_item.technologies.each do |t| %>
